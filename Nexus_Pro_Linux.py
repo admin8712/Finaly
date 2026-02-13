@@ -5,17 +5,17 @@ from shutil import get_terminal_size
 # --- INSTALL MODULE ---
 try:
     os.system("sudo apt install binutils -y ")
-    #os.system("apt install android-tools ")
-    #os.system("sudo apt install zipalign -y ")
-    #os.system("sudo apt install wget ")
-    #os.system("wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool ")
-    #os.system("wget -O apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar ")
-    #os.system("sudo apt install openjdk-17-jdk -y")
-    #os.system("pip install rich")
-    #os.system("sudo apt-get install -y nodejs")
-    #os.system("npm install -g apk-mitm")
-    #os.system("sudo install aapt2 -y")
-    #os.system("apt install aapt -y")
+    os.system("apt install android-tools ")
+    os.system("sudo apt install zipalign -y ")
+    os.system("sudo apt install wget ")
+    os.system("wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool ")
+    os.system("wget -O apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar ")
+    os.system("sudo apt install openjdk-17-jdk -y")
+    os.system("pip install rich")
+    os.system("sudo apt-get install -y nodejs")
+    os.system("npm install -g apk-mitm")
+    os.system("sudo install aapt2 -y")
+    os.system("apt install aapt -y")
     from deep_translator import GoogleTranslator
 except ImportError:
     print("\033[33m[!] Installing modules...\033[0m")
